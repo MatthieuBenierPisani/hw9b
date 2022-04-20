@@ -1,0 +1,21 @@
+*, body {
+    font-family: 'Calibri';
+}
+  
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table th {
+    background: lightgray;
+}
+
+table th, table td {
+    padding: 0 5px;
+    border: 1px solid black;
+}
+
+.spacer {
+    margin-top: 10px;
+}

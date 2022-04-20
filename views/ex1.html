@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthieu's Ex 1</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1><a href="/">Link to Start Page</a></h1>
+    <h2>Matthieu's Ex 1</h2>
+
+    <h1>Sample Form</h1>
+
+    <form>
+        <p>
+            <label for="name">Name</label>:
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label>Payment Type :</label>
+            <div>
+                <input type="radio" name="payment" id="cash" value="cash">
+                <label for="cash">Cash</label>
+            </div>
+            <div>
+                <input type="radio" name="payment" id="cc" value="ccard">
+                <label for="cc">Credit Card</label>
+            </div>
+            <div>
+                <input type="radio" name="payment" id="gp" value="gpay">
+                <label for="gp">Google Pay</label>
+            </div>
+            <div>
+                <input type="radio" name="payment" id="ap" value="apay">
+                <label for="ap">Apple Pay</label>
+            </div>
+            <input type="checkbox" name="promo" id="promo">
+            <label for="promo">Sign me up for special promotions</label>
+            <br>
+            <label for="location">Preferred Location :</label>
+            <select name="location" id="location">
+                <option value="la">Los Angeles</option>
+                <option value="oc">Orange County</option>
+                <option value="rs">Riverside</option>
+                <option value="sd">San Diego</option>
+            </select>
+        </p>
+        <input type="submit">
+    </form>
+    <p id="result"></p>
+    <script src="/ex1.js"></script>
+</body>
+</html>
